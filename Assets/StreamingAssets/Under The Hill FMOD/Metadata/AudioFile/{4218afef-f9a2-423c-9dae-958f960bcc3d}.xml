@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.09.00">
+    <object class="AudioFile" id="{4218afef-f9a2-423c-9dae-958f960bcc3d}">
+        <property name="assetPath">
+            <value>Clonage Center_City_07 .wav</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>231.52941666666666</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{0c26c50b-3b4d-4f17-81a2-c5cf4030f8d0}</destination>
+        </relationship>
+    </object>
+</objects>

@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1155862061081968}
+  m_IsPrefabParent: 1
+--- !u!1 &1155862061081968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4033780338976152}
+  - component: {fileID: 114917055604924654}
+  - component: {fileID: 114262669303983742}
+  m_Layer: 0
+  m_Name: Aspirator Alone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4033780338976152
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1155862061081968}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 32.810005, y: 2.29, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114262669303983742
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1155862061081968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c50896ee67f75114e9ebafb30e74f7cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fovRange: 6.46
+  fovAngle: 48
+  strengthOfAttraction: -25
+--- !u!114 &114917055604924654
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1155862061081968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63713a138660e3443b8e70eb3da138ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeOpti: 0.01
+  typeOfTraps: 0
+  particles: {fileID: 0}
+  desactiveOutOfScreen: 1
+  onlyEggs: 0
+  notMyTeam: 0
+  idTeam: 1
+  miniAttractForTrail: 0
+  miniAttractEndTrail: 0
+  onYellow: 0
+  divideForPlayer: 2
+  addMultiplyForPushable: 1
+  useRaycast: 0

@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Portal
+  - wall
+  - triggerWalls
+  - Eggs
+  - GroupEggs
+  - GroupMetalica
+  - Metal
+  - EggsLeft
+  - TBT
+  - Global
+  - GroupPlayer
+  - GroupPoolEggs
+  - ControlMapper
+  - GroupPoolPlayer
+  - ColliderWalls
+  - GroupPortals
+  - Destructible
+  - PortalInit
+  - FirePortals
+  - LevelManager
+  - EvilParticle
+  - Trail
+  - FreezParticle
+  - mainCanvas
+  - LevelData
+  - Pushable
+  - Collider2d
+  - ParticleCollider
+  - Zones
+  - CanvasForCinematics
+  - LevelMainMenu
+  - Tuto
+  - groupTuto
+  - GroupPointCam
+  - ColliderTrail3d
+  - Platform
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Metalica
+  - Lock
+  - Walls
+  - PortalCollider
+  - Trail
+  - TrailAndMetalica
+  - Sprite
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
