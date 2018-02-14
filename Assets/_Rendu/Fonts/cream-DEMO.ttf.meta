@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: aa5eb5c70c8e5be43b80402a2829270a
+timeCreated: 1496672042
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: cream
+  fontNames:
+  - cream
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

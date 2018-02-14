@@ -1,0 +1,251 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1783759284556788}
+  m_IsPrefabParent: 1
+--- !u!1 &1783759284556788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4091431025342816}
+  - component: {fileID: 114823561980026566}
+  - component: {fileID: 114579431056342968}
+  - component: {fileID: 114514834278528992}
+  - component: {fileID: 114359275254152650}
+  - component: {fileID: 114242748546657474}
+  - component: {fileID: 114729157971893868}
+  - component: {fileID: 114422226905750484}
+  - component: {fileID: 114140891913071670}
+  - component: {fileID: 114520640813987936}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4091431025342816
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1783759284556788}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114140891913071670
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1783759284556788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f35c51872a441324e916ff69962251e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groupPoolEggs: {fileID: 0}
+  timeOpti: 0.1
+  eggsPrefabs: {fileID: 0}
+--- !u!114 &114242748546657474
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1783759284556788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea594eeddf241934bb02a9c9cf03aea8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeOpti: 0.1
+  PanelPower:
+  - {fileID: 0}
+  - {fileID: 0}
+  groupOfAllSolo: []
+  panelDisplayed: 
+  typeSwitch: 
+  listPower1: 
+  listPower2: 
+  TargetsPlayerSolo1: []
+  TargetsPlayerSolo2: []
+  groupEggs: {fileID: 0}
+  groupParticleSwitch: {fileID: 0}
+  tmpTransformPlayer: []
+--- !u!114 &114359275254152650
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1783759284556788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d08623729d417a4a8e7ba5ca2b7ecef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Walls: {fileID: 0}
+  timeOpti: 0.1
+  edgeAdjust: 0
+--- !u!114 &114422226905750484
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1783759284556788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05981dbad3129f5428f94f52a97b7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114514834278528992
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1783759284556788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5587f2689487b654c96b1bc6e8af0b16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeOpti: 0.1
+  QueenSolo: {fileID: 1769455029125026, guid: 29a3163e14236894c852552ad7c28866, type: 2}
+  QueenMulti: []
+  PanelPlayer: []
+  TimeOver: {fileID: 0}
+  GoldenBall: {fileID: 0}
+  GoldenBallTeamWin: {fileID: 0}
+  QueenIsFull: {fileID: 0}
+  QueenIsFullMulti: {fileID: 0}
+  AllEggsInfected: {fileID: 0}
+  AllPlayerDead: {fileID: 0}
+  LevelFailed: {fileID: 0}
+  GameEnd: {fileID: 0}
+  TeamWinByKillingOther: {fileID: 0}
+--- !u!114 &114520640813987936
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1783759284556788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0e687c972a2f3c41aa077ce46c3c8f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeOpti: 0.1
+  timeWithNoEffect: 0.5
+  whoUseThis: nobody
+  isOk: 1
+  restart: 0
+  additionnalTime: 1
+--- !u!114 &114579431056342968
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1783759284556788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc96c89789e29424887bfa065b96776e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  multi: 0
+  soloAnd2Player: 0
+  ScoreProgressBarSolo: {fileID: 0}
+  ScorePorgressBarTeam1: {fileID: 0}
+  ScorePorgressBarTeam2: {fileID: 0}
+  allPlayerDead: 0
+  timerEnd: 0
+  queenIsFull: 0
+  everyEggsAreInfect: 0
+  endOfTheWorld: 0
+  winnerTeamMulti: -1
+  waitForGoldenBall: 0
+  winnedByGoldenBall: 0
+  groupPlayer: {fileID: 0}
+  groupPoolPlayer: {fileID: 0}
+  Chrono: {fileID: 0}
+  timerChorno: {fileID: 0}
+  timeOpti: 0.1
+  timeBeforGoToQueen: 2
+  timeBeforGoToQueenEnd: 3
+  TargetsPlayers: []
+  TargetsPlayersToRespawn: []
+  SA: {fileID: 0}
+  groupEggs: {fileID: 0}
+  levelManager: {fileID: 0}
+  LMG: {fileID: 0}
+  IG: {fileID: 0}
+--- !u!114 &114729157971893868
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1783759284556788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78166304691e99a4eb804d2e92495624, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distance: 15
+--- !u!114 &114823561980026566
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1783759284556788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df7509c589db2af4ca073bc8f90111e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeOpti: 0.1
+  parentPlayerSolo:
+  - {fileID: 0}
+  - {fileID: 0}
+  avatarPlayerPrefabs: {fileID: 0}
+  QueensPrefabs: []
+  playersPrefabs: []
+  trailPlayer: {fileID: 0}
+  groupTrail: {fileID: 0}
+  progressBarGreenPrefabs: {fileID: 0}
+  groupProgressBar: {fileID: 0}
+  BigPanelSolo: {fileID: 0}
+  BigPanelMulti: {fileID: 0}
+  groupQueen: {fileID: 0}
+  groupPlayer: {fileID: 0}
+  SpawnerPlayers: {fileID: 0}
+  PanelTeamSolo: {fileID: 0}
+  PanelTeam1: {fileID: 0}
+  PanelTeam2: {fileID: 0}
+  OPteam:
+  - {fileID: 21300000, guid: 30433a07bade7a6479f6651f463a302d, type: 3}
+  - {fileID: 21300000, guid: 94f9421bd2435d54a90b9474cbe59335, type: 3}
+  picPower:
+  - {fileID: 21300000, guid: b931398b32182014f83fd4cc5cf04bfe, type: 3}
+  - {fileID: 21300000, guid: 94c2ec3b0d3480a4aae5335f26043d72, type: 3}
+  - {fileID: 21300000, guid: 65a8c66a7e63fa04a89d10e09598e2c5, type: 3}
+  - {fileID: 21300000, guid: 2fddcb583125f314f90ec635a0a2acde, type: 3}
+  picPlayerDead:
+  - {fileID: 21300000, guid: 7f160cd917317424baf46e886a708e69, type: 3}
+  - {fileID: 21300000, guid: f9564b84d6be53f40b1d07b28eeba3e6, type: 3}
+  - {fileID: 21300000, guid: 4107f5b4e4089314dad73dd5c6aea398, type: 3}
+  - {fileID: 21300000, guid: b29d7a51fe031e148acc91c9443076f2, type: 3}
+  levelDataObject: {fileID: 0}
+  levelDataScript: {fileID: 0}

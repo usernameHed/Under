@@ -1,0 +1,25 @@
+{99f0d2e0-d6f7-457a-81c2-558dcd7462bc} event:/Music/Clonage CenterCity  170bpm OLD
+{c2ae67ce-10b9-44a8-a6ad-b48047961595} event:/Music/Clonage CenterCity 170bpm
+{3618cce7-b415-4f2b-bac2-10360f8891ee} event:/Music/Menu Solo 125bpm
+{3bd1a6d3-37ab-4959-b5cd-b303b0511087} event:/Music/Menu Solo_02 Old
+{86af88dd-856b-4142-a1dc-3ceaa6624a75} event:/SFX/Traps/Fire/Fire_1
+{23417d88-b854-477d-bf01-7b651eef0a3b} event:/SFX/Traps/Fire/Fire_2
+{8f1fbe29-c0c9-45ce-8b8d-2716dcb4dfc6} event:/SFX/Traps/Fire/Fire_3
+{59bd3ef3-2d05-4d0d-a626-fcb111c53663} event:/SFX/Traps/Fire/Fire_4
+{28ec76ab-218f-4619-84e8-39468a236fe5} event:/SFX/Traps/Fire/Fire_5
+{ced3a9fe-e17d-49ca-8629-0116eb98734b} event:/SFX/Traps/Fire/Fire_6
+{ce295e2c-d720-4bab-8c75-4a009910f53b} event:/SFX/Traps/Repulse/Repulse_1
+{611de8d5-83cf-4f27-9c5c-fc15efeb4474} event:/SFX/Traps/Repulse/Repulse_2
+{367766a3-e22c-41ce-8b66-b96cd2e4eecd} event:/SFX/Traps/Repulse/Repulse_3
+{8e7e1963-0f25-41b2-a083-9517c17bbf7c} event:/SFX/Traps/Repulse/Repulse_4
+{10f2f1b7-e999-441e-a7e1-a627eb053647} event:/SFX/Traps/Repulse/Repulse_5
+{df5e7e95-d37d-441d-8dc5-f79a3d66eaae} event:/SFX/Traps/Repulse/Repulse_6
+{6f59188d-9897-4f3f-b639-93b4d1d5f178} event:/SFX/Bouton
+{da1a8afe-bb1f-48a7-bb19-c5aea192d93b} event:/SFX/Egg
+{a4f3c7cb-a904-447d-9351-47be10975e10} event:/SFX/Repulse
+{55749116-beeb-4a34-a4f4-0d74b7b82914} bus:/
+{aa69e0c8-3ec5-4ad1-b24d-e6ed7b773096} bus:/Music
+{ccce7e43-bac7-434b-9854-277245959483} bus:/SFX
+{c45cb47d-53b8-4f7d-a7ae-7798f0999cb9} bus:/Reverb
+{355cf90a-66f9-41c8-ae31-e13fea46bfac} snapshot:/Test
+{f370ca40-9f47-4b78-893d-216e4907b7e1} bank:/Master Bank
