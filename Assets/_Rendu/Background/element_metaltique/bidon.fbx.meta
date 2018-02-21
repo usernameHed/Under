@@ -8,21 +8,33 @@ ModelImporter:
     100000: //RootNode
     100002: Cylindre
     100004: pTorus1
+    100006: pCylinder1
     400000: //RootNode
     400002: Cylindre
     400004: pTorus1
+    400006: pCylinder1
     2300000: Cylindre
     2300002: pTorus1
+    2300004: pCylinder1
+    2300006: //RootNode
     3300000: Cylindre
     3300002: pTorus1
+    3300004: pCylinder1
+    3300006: //RootNode
     4300000: Cylindre
     4300002: pTorus1
+    4300004: pCylinder1
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Default_Material
+    second: {fileID: 2100000, guid: 0eec0059a175d0a4e918664d4b8bec55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: lambert1
-    second: {fileID: 2100000, guid: 3ed5830530f93c54882e084614a87ea2, type: 2}
+    second: {fileID: 2100000, guid: 21e0e5cf63bee8d419f807ac1dbf8a62, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

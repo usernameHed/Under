@@ -18,6 +18,7 @@ ModelImporter:
     3300002: //RootNode
     4300000: pCube1
     4300002: pCube2
+    4300004: pCube4
     9500000: //RootNode
   externalObjects: {}
   materials:
@@ -62,8 +63,6 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    preserveHierarchy: 0
-    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
