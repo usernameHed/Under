@@ -24532,12 +24532,12 @@ Prefab:
     - target: {fileID: 224276055398989276, guid: 51703e04b3cd2e44d868639c4378b4c3,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 455.5
+      value: 435.5
       objectReference: {fileID: 0}
     - target: {fileID: 224276055398989276, guid: 51703e04b3cd2e44d868639c4378b4c3,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 169
+      value: 204
       objectReference: {fileID: 0}
     - target: {fileID: 224276055398989276, guid: 51703e04b3cd2e44d868639c4378b4c3,
         type: 2}
@@ -60115,6 +60115,11 @@ Prefab:
         type: 2}
       propertyPath: factorMultiply
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114254863692904236, guid: 9b937a8cf61b9994e900fd67205d18f5,
+        type: 2}
+      propertyPath: alwaysOnCamera
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9b937a8cf61b9994e900fd67205d18f5, type: 2}
