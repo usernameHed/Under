@@ -11,7 +11,7 @@ public class PlayVideo : MonoBehaviour                                   //comme
     /// <summary>
     /// variable public
     /// </summary>
-    public MovieTexture movie;
+    //public MovieTexture movie;
     public enum TypeOfCinematic                                                        //type de pouvoir
     {
         Intro = 0,
@@ -71,17 +71,17 @@ public class PlayVideo : MonoBehaviour                                   //comme
             stopVideo();
             return;
         }
-        if (!movie)
-            return;
-        Debug.Log("ici fuck ?");
-        gameObject.GetComponent<RawImage>().texture = movie as MovieTexture;
-        audio_movie = gameObject.GetComponent<AudioSource>();
-        audio_movie.clip = movie.audioClip;
-        stopVideo();
-        movie.Play();
-        audio_movie.Play();
-        isPlaying = true;
-        if (TP == TypeOfCinematic.Intro && QOC)
+        //if (!movie)
+           // return;
+       // Debug.Log("ici fuck ?");
+        //gameObject.GetComponent<RawImage>().texture = movie as MovieTexture;
+        //audio_movie = gameObject.GetComponent<AudioSource>();
+        //audio_movie.clip = movie.audioClip;
+        //stopVideo();
+        //movie.Play();
+        //audio_movie.Play();
+        //isPlaying = true;
+        //if (TP == TypeOfCinematic.Intro && QOC)
             QOC.StartLoading("1_MainMenu", false);             //commence à charger le jeu
     }
     #endregion
@@ -92,10 +92,10 @@ public class PlayVideo : MonoBehaviour                                   //comme
     /// </summary>
     public void stopVideo()                                             //test
     {
-        if (!movie || !audio_movie)
-            return;
-        movie.Stop();
-        audio_movie.Stop();
+    //    if (!movie || !audio_movie)
+    //        return;
+    //    movie.Stop();
+    //    audio_movie.Stop();
     }
     #endregion
 
@@ -105,16 +105,16 @@ public class PlayVideo : MonoBehaviour                                   //comme
     /// </summary>
     private void Update()                                                   //update
     {
-        if (!movie)
-        {
-            this.enabled = false;
-            return;
-        }
+        //if (!movie)
+       // {
+       //    this.enabled = false;
+       //    return;
+        //}
             
-        if (!movie.isPlaying && TP == TypeOfCinematic.Intro && QOC && isPlaying) //si on est dans l'introduction et que la vidéo est fini, activer la scène du menu précédemment chargé
+        if ( TP == TypeOfCinematic.Intro && QOC && isPlaying) //si on est dans l'introduction et que la vidéo est fini, activer la scène du menu précédemment chargé
         {
-            isPlaying = false;
-            QOC.ActivateScene();
+           isPlaying = false;
+           QOC.ActivateScene();
         }
 
         /*if (Input.GetKeyDown(KeyCode.Space) && movie.isPlaying)
@@ -130,7 +130,7 @@ public class PlayVideo : MonoBehaviour                                   //comme
 
     private void OnGUI()
     {
-        if (!movie.isPlaying && isPlaying && TP != TypeOfCinematic.Intro)
+        if ( isPlaying && TP != TypeOfCinematic.Intro)
         {
             isPlaying = false;
             Debug.Log("ici not playing !");
