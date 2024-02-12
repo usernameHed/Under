@@ -16,13 +16,13 @@ COMMAND LINE ARGUMENTS:
 -batchMode
 -noUpm
 -name
-AssetImportWorker0
+AssetImportWorker1
 -projectPath
 /Users/hed/GIT/Unity/Under
 -logFile
-Logs/AssetImportWorker0.log
+Logs/AssetImportWorker1.log
 -srvPort
-49242
+50009
 Successfully changed project path to: /Users/hed/GIT/Unity/Under
 /Users/hed/GIT/Unity/Under
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,11 +54,11 @@ Successfully changed project path to: /Users/hed/GIT/Unity/Under
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8375245632] Host "[IP] 192.168.1.61 [Port] 0 [Flags] 2 [Guid] 2492503712 [EditorId] 2492503712 [Version] 1048832 [Id] OSXEditor(0,Mac-mini-de-Ugo) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8375245632] Host "[IP] 192.168.1.61 [Port] 0 [Flags] 2 [Guid] 2089679898 [EditorId] 2089679898 [Version] 1048832 [Id] OSXEditor(0,Mac-mini-de-Ugo) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8375245632] Host "[IP] 192.168.1.61 [Port] 0 [Flags] 2 [Guid] 2492503712 [EditorId] 2492503712 [Version] 1048832 [Id] OSXEditor(0,Mac-mini-de-Ugo) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8375245632] Host "[IP] 192.168.1.61 [Port] 0 [Flags] 2 [Guid] 2089679898 [EditorId] 2089679898 [Version] 1048832 [Id] OSXEditor(0,Mac-mini-de-Ugo) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 7.32 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.17f1 (54cb9bda89c4)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.2.17f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -73,7 +73,7 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.2.17f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.2.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.2.17f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56925
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.2.17f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -82,8 +82,8 @@ Register platform support module: /Applications/Unity/Hub/Editor/2022.2.17f1/Pla
 Register platform support module: /Applications/Unity/Hub/Editor/2022.2.17f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.2.17f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.2.17f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.001973 seconds.
-- Loaded All Assemblies, in  0.172 seconds
+Registered in 0.001986 seconds.
+- Loaded All Assemblies, in  0.173 seconds
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
@@ -91,36 +91,36 @@ Native extension for WindowsStandalone target not found
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 39 ms
+Android Extension - Scanning For ADB Devices 50 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.255 seconds
+- Finished resetting the current domain, in  0.268 seconds
 Domain Reload Profiling:
 	ReloadAssembly (92ms)
-		BeginReloadAssembly (37ms)
+		BeginReloadAssembly (38ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (37ms)
+			LoadAssemblies (38ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (79ms)
-				TypeCache.Initialize (78ms)
-					TypeCache.ScanAssembly (77ms)
+				TypeCache.Initialize (79ms)
+					TypeCache.ScanAssembly (78ms)
 				ResolveRequiredComponents (0ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (221ms)
+			SetupLoadedEditorAssemblies (234ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (147ms)
+				InitializePlatformSupportModulesInManaged (161ms)
 				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (50ms)
+				ProcessInitializeOnLoadAttributes (49ms)
 				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -129,8 +129,8 @@ Domain Reload Profiling:
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.351 seconds
-Refreshing native plugins compatible for Editor in 4.26 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.338 seconds
+Refreshing native plugins compatible for Editor in 4.07 ms, found 3 plugins.
 OnLevelWasLoaded was found on GameObserver
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
@@ -157,45 +157,45 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 (Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs Line: 149)
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.672 seconds
+- Finished resetting the current domain, in  0.707 seconds
 Domain Reload Profiling:
-	ReloadAssembly (114ms)
-		BeginReloadAssembly (65ms)
+	ReloadAssembly (113ms)
+		BeginReloadAssembly (63ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		LoadAllAssembliesAndSetupDomain (236ms)
-			LoadAssemblies (135ms)
+			CreateAndSetChildDomain (16ms)
+		LoadAllAssembliesAndSetupDomain (224ms)
+			LoadAssemblies (120ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (126ms)
-				TypeCache.Initialize (114ms)
-					TypeCache.ScanAssembly (113ms)
+			SetupTypeCache (129ms)
+				TypeCache.Initialize (117ms)
+					TypeCache.ScanAssembly (116ms)
 				ResolveRequiredComponents (4ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (571ms)
+			SetupLoadedEditorAssemblies (605ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (28ms)
 				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (25ms)
-				ProcessInitializeOnLoadAttributes (454ms)
-				ProcessInitializeOnLoadMethodAttributes (60ms)
+				ProcessInitializeOnLoadAttributes (485ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.2.17f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
-Refreshing native plugins compatible for Editor in 4.40 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2706 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 353 unused Assets / (0.8 MB). Loaded Objects now: 3264.
-Memory consumption went from 241.4 MB to 240.6 MB.
-Total: 12.115917 ms (FindLiveObjects: 0.112250 ms CreateObjectMapping: 0.045584 ms MarkObjects: 8.797625 ms  DeleteObjects: 3.160209 ms)
+Memory consumption went from 241.3 MB to 240.5 MB.
+Total: 11.521208 ms (FindLiveObjects: 0.085000 ms CreateObjectMapping: 0.044084 ms MarkObjects: 7.987958 ms  DeleteObjects: 3.403708 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -208,33 +208,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Import Request.
-  Time since last request: 384971.506084 seconds.
-  path: Packages/com.unity.ugui/package.json
-  artifactKey: Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ugui/package.json using Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b) TypeLoadException: Could not load type Rewired.Demos.Bullet, Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null while decoding custom attribute: (null)
-  at (wrapper managed-to-native) System.MonoCustomAttrs.GetCustomAttributesInternal(System.Reflection.ICustomAttributeProvider,System.Type,bool)
-  at System.MonoCustomAttrs.GetCustomAttributesBase (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inheritedOnly) [0x00013] in <b5ac4fa8faf34bc9be9b9c54f8ce8a43>:0 
-  at System.MonoCustomAttrs.GetCustomAttributes (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inherit) [0x00037] in <b5ac4fa8faf34bc9be9b9c54f8ce8a43>:0 
-  at System.RuntimeType.GetCustomAttributes (System.Type attributeType, System.Boolean inherit) [0x00038] in <b5ac4fa8faf34bc9be9b9c54f8ce8a43>:0 
-  at Sirenix.Utilities.MemberInfoExtensions.GetAttributes[T] (System.Reflection.MemberInfo member, System.Boolean inherit) [0x00000] in C:\Users\Bjarke\Desktop\Projects\Sirenix Development Framework\Sirenix Solution\Sirenix.Utilities\Extensions\MemberInfoExtensions.cs:72 
-  at Sirenix.Utilities.MemberInfoExtensions.GetAttributes[T] (System.Reflection.MemberInfo member) [0x00000] in C:\Users\Bjarke\Desktop\Projects\Sirenix Development Framework\Sirenix Solution\Sirenix.Utilities\Extensions\MemberInfoExtensions.cs:62 
-  at Sirenix.OdinInspector.Editor.EditorCompilation..cctor () [0x00095] in C:\Users\Bjarke\Desktop\Projects\Sirenix Development Framework\Sirenix Solution\Sirenix.OdinInspector.Editor\Core\Children\WeakListPropertyChildren.cs:61 
-Rethrow as TypeInitializationException: The type initializer for 'Sirenix.OdinInspector.Editor.EditorCompilation' threw an exception.
-  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_generic_class_init(intptr)
-  at Sirenix.OdinInspector.Editor.EditorCompilation+<>c__DisplayClass13_0.<OverrideUnityTypeResolutionForMissingEditors>b__0 (System.Object sender, System.ResolveEventArgs args) [0x00000] in C:\Users\Bjarke\Desktop\Projects\Sirenix Development Framework\Sirenix Solution\Sirenix.OdinInspector.Editor\Core\Context\PropertyContextContainer.cs:473 
-  at System.AppDomain.DoTypeResolve (System.String name) [0x00051] in <b5ac4fa8faf34bc9be9b9c54f8ce8a43>:0 
-  at (wrapper managed-to-native) System.MonoCustomAttrs.GetCustomAttributesInternal(System.Reflection.ICustomAttributeProvider,System.Type,bool)
-  at System.MonoCustomAttrs.GetCustomAttributesBase (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inheritedOnly) [0x00013] in <b5ac4fa8faf34bc9be9b9c54f8ce8a43>:0 
-  at System.MonoCustomAttrs.GetCustomAttributes (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inherit) [0x00037] in <b5ac4fa8faf34bc9be9b9c54f8ce8a43>:0 
-  at System.RuntimeType.GetCustomAttributes (System.Type attributeType, System.Boolean inherit) [0x00038] in <b5ac4fa8faf34bc9be9b9c54f8ce8a43>:0 
-  at UnityEditor.CustomEditorAttributes.Rebuild () [0x00034] in /Users/bokken/build/output/unity/unity/Editor/Mono/CustomEditorAttributes.cs:130 
-  at UnityEditor.CustomEditorAttributes.FindCustomEditorTypeByType (System.Type type, System.Boolean multiEdit) [0x0000e] in /Users/bokken/build/output/unity/unity/Editor/Mono/CustomEditorAttributes.cs:34 
-  at UnityEditor.CustomEditorAttributes.FindCustomEditorType (UnityEngine.Object o, System.Boolean multiEdit) [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/CustomEditorAttributes.cs:26 
-  at UnityEditor.AssetPreviewUpdater.CreatePreview (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath, System.Int32 width, System.Int32 height) [0x00016] in /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:18 
-  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x00001] in /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:9 
-
- -> (artifact id: '9d51f700e97af91693ecd180754e8e1e') in 0.008715 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
